@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Ozon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="preloader">
+    <div class="title">Progress</div>
+  <div class="progress">
+    
+    <svg width="150" heigth="150" class="progress-ring">
+      <circle class="progress-ring-circle-background" cx="60" cy="60" r="52" stroke="#eff3f6" stroke-width="8" fill="transparent"/>
+      <circle class="progress-ring-circle" cx="60" cy="60" r="52" stroke="#005bff" stroke-width="8" fill="transparent"/>
+    </svg>
+  </div>
+  
+ <div class="state">
+ <div>
+  <input type="number" class="value-input" min="0" max="100" value="0">
+ <label for="value-input">Value</label>
+ </div>
+ 
+  
+  <div>
+  <input type="checkbox" id="animate-toggle">
+  <label class="label" for="animate-toggle">Animate</label>
+  </div>
+  
+  <div>
+  <input type="checkbox" id="hide-toggle">
+  <label class="label"  for="hide-toggle">Hide</label>
+  </div>
+  
+ </div>
+</div>
+  <script src="./index.js"></script>
+</body>
+</html>
